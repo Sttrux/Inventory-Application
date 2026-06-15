@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Lora", serif;
+  min-width: 100vw;
+  min-height: 90vh;
+  padding: 0;
+}
+.container-options-render {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 0px 20px 0px 20px;
+  width: 60%;
+}
+.render {
+  border-left: 1px solid black;
+  padding: 0px 10px 0px 50px;
+  min-height: 90vh;
+}

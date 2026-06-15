@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head><title>Hi</title></head>
-    <body>
-        <h1>Hello World</h1>
-    </body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/options.css">
+    <title>Hi</title>
+  </head>
+  <body>
+    <%-include("header.ejs")%>
+    <div class="container-options-render">
+    <%-include("options.ejs")%>
+      <div class="render">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias suscipit laborum beatae atque, rem alias, ex iusto vitae ab inventore tempore soluta, accusamus qui magni distinctio. Harum tempore ad quibusdam.</p>
+      </div>
+      </div>
+    </div>
+  </body>
 </html>

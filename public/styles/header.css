@@ -1,0 +1,16 @@
+.title {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+.title span:first-of-type {
+  color: black;
+}
+.title span:last-of-type {
+  color: #f15025;
+}
+header {
+  border-bottom: none;
+  box-shadow: 0px 8px 10px -8px rgba(0, 0, 0, 0.4);
+  padding: 0px 0px 1px 20px;
+}
